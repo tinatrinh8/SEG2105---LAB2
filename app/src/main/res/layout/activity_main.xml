@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/CountryAvatar"
+        android:layout_width="220dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/TitlePage"
+        android:layout_width="332dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="456dp"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:lineSpacingExtra="8sp"
+        android:text="SPORTS TEAM MANAGER"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#3E0606"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TeamNameHere"
+        android:layout_width="109dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/josefin_sans"
+        android:text="Team Name"
+        android:textAlignment="center"
+        android:textColor="#0E0A0A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/PersonEntersTeamName"
+        android:layout_width="283dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="397dp"
+        android:ems="10"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:inputType="textPersonName"
+        android:text="please enter team name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#877F7F"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
