@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ProfileManager</string>
     <string name="button">Button</string>
+    <string name="open_in_google_maps">Open in Google Maps</string>
+    <string name="team_address">Team Address</string>
+    <string name="please_enter_team_name">please enter team name</string>
+    <string name="please_enter_postal_code_here">please enter postal code here</string>
 </resources>
