@@ -4,7 +4,7 @@ SUBMIT BY OCTOBER 7TH AT 11:59
 Objectives For lab:
 
 1. Build an app that manages sports team
-2. Sould be able to set/change the Profile Name and Profile Avatar 
+2. Should be able to set/change the Profile Name and Profile Avatar 
 3. Should be able to set an address
 4. Should be able to open the Google Maps application with the address entered in maps
 
